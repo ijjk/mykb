@@ -1,0 +1,88 @@
+{
+  "name": "mykb",
+  "description": "A file system/markdown based knowledge base editor/viewer",
+  "version": "0.1.0",
+  "main": "src",
+  "keywords": [
+    "feathers",
+    "react",
+    "next.js",
+    "markdown"
+  ],
+  "author": {
+    "name": "JJ Kasper",
+    "email": "jj@jjsweb.site"
+  },
+  "contributors": [],
+  "bugs": {},
+  "directories": {
+    "lib": "src",
+    "test": "test/"
+  },
+  "engines": {
+    "node": ">= 8.0.0",
+    "yarn": ">= 0.18.0"
+  },
+  "scripts": {
+    "lint:node": "eslint ./src ./test --config .eslintrc.json",
+    "lint:react": "eslint ./pages ./redux ./util ./comps --config .eslintrc.react.json",
+    "lint": "npm run lint:node && npm run lint:react",
+    "mocha": "cross-env NODE_ENV=production mocha test/ --recursive --exit",
+    "build": "next build",
+    "analyze": "cross-env ANALYZE=true next build",
+    "dev": "nodemon -w ./src -w ./config -w ./util -w next.config.js --exec 'npm run start:dev'",
+    "start:dev": "node src/",
+    "start": "cross-env NODE_ENV=production node src/",
+    "test": "npm run lint && npm run build && npm run mocha",
+    "check:build": "if-env NODE_ENV=production && npm run build || echo ''",
+    "postinstall": "node ./genSecret.js && npm run check:build"
+  },
+  "dependencies": {
+    "@feathersjs/authentication": "^2.1.5",
+    "@feathersjs/authentication-jwt": "^2.0.0",
+    "@feathersjs/authentication-local": "^1.1.2",
+    "@feathersjs/configuration": "^1.0.2",
+    "@feathersjs/errors": "^3.3.0",
+    "@feathersjs/express": "^1.2.2",
+    "@feathersjs/feathers": "^3.1.4",
+    "@zeit/next-sass": "^0.1.2",
+    "chokidar": "^2.0.3",
+    "codemirror": "^5.37.0",
+    "compression": "^1.7.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "cross-env": "^5.1.4",
+    "express-rate-limit": "^2.11.0",
+    "feathers-nedb": "^3.0.0",
+    "fs-extra": "^5.0.0",
+    "glob": "^7.1.2",
+    "helmet": "^3.12.0",
+    "if-env": "^1.0.4",
+    "isomorphic-unfetch": "^2.0.0",
+    "milligram": "^1.3.0",
+    "nedb": "^1.8.0",
+    "next": "^6.0.0",
+    "node-sass": "^4.8.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-markdown": "^3.3.0",
+    "react-paginate": "^5.2.3",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "serve-favicon": "^2.5.0",
+    "simple-git": "^1.92.0",
+    "url-join": "^4.0.0",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.8.2",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.3",
+    "redux-logger": "^3.0.6",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "webpack-bundle-analyzer": "^2.11.1"
+  }
+}
