@@ -11,7 +11,6 @@ export default class MyDocument extends Document {
           <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'/>
           <link rel='shortcut icon' href={favicon} type='image/x-icon'/>
           <link rel='icon' href={favicon} type='image/x-icon'/>
-          <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic'/>
           <link rel='stylesheet' href={getUrl('/_next/static/style.css')} />
           <title>My Knowledge Base</title>
         </Head>
