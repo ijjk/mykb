@@ -17,7 +17,6 @@ body, code, pre
 
 pre, code
   font-size: 1.5rem; 
-  word-break: break-all;
 
 input, textarea, select, button, 
 .button, .cm-s-monokai.CodeMirror
@@ -89,14 +88,13 @@ a
   padding: 10px; 
   p, pre
     word-wrap: break-word;
-    word-break: break-all;
 
 .v-center
   min-height: calc(100vh - 55px - 50px - 20px); 
   flex-direction: row; 
   align-items: center; 
 
-.no-mob
+.nomob
   display: none !important; 
 
 .inline
@@ -116,6 +114,10 @@ a
   pre
     margin-bottom: 2.5rem
 
+@media screen and (max-width: 639px)
+  .row .column.column-50
+    max-width: 100%
+
 @media screen and (min-width: 640px)
-  .no-mob
+  .nomob
     display: block !important; 

@@ -103,10 +103,10 @@ export default class MngDoc extends Component {
     return(
       <Page>
         <div className='row fill' style={rowStyle}>
-          <div className='column'>
+          <div className='column column-50'>
             <Markdown className='fill Markdown' source={md} />
           </div>
-          <div className='column'>
+          <div className='column column-50'>
             <div className='row'>
               <div className='column column-60'>
                 <input type='text' maxLength={250} 

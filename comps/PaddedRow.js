@@ -1,7 +1,7 @@
 const PaddedRow = ({ children, amount, vCenter }) => {
   amount = amount || 20; 
   const PadItem = () => (
-    <div className={'column column-' + amount + ' no-mob'} />
+    <div className={'column column-' + amount + ' nomob'} />
   ); 
   let rowProps = {className: 'row'}; 
   if(vCenter) rowProps = {className: 'row v-center'};
