@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import { connect } from 'react-redux'; 
 import fetch from 'isomorphic-unfetch'; 
 import mapUser from '../util/mapUser'; 

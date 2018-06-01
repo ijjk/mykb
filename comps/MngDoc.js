@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import Router from 'next/router'; 
 import dynamic from 'next/dynamic';  
 import Page from '../comps/Page';

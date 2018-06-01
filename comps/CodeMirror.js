@@ -1,4 +1,4 @@
-import { Component } from 'react'; 
+import React, { Component } from 'react'; 
 import cm from 'codemirror'; 
 import { getKey, isCtrlKey } from '../util/keys'; 
 

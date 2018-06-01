@@ -13,12 +13,11 @@ const getUrl = pathname => url.format({
 });
 
 describe('Feathers application tests', () => {
-  before(function(done) {
-    this.server = app.listen(port);
-    app.startNext().then(() => done()); 
+  before(async () => {
+    this.server = await app.run(port);
   });
 
-  after(function(done) {
+  after(done => {
     this.server.close(done);
   });
 

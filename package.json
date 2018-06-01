@@ -24,9 +24,8 @@
     "yarn": ">= 0.18.0"
   },
   "scripts": {
-    "lint:node": "eslint ./src ./test --config .eslintrc.json",
-    "lint:react": "eslint ./pages ./redux ./util ./comps --config .eslintrc.react.json",
-    "lint": "npm run lint:node && npm run lint:react",
+    "format": "prettier --write '**/*.js'",
+    "lint": "eslint ./src ./test ./pages ./redux ./util ./comps --config .eslintrc.json",
     "mocha": "cross-env NODE_ENV=production mocha test/ --recursive --exit",
     "build": "next build",
     "analyze": "cross-env ANALYZE=true next build",
@@ -80,6 +79,7 @@
     "eslint-plugin-react": "^7.8.2",
     "mocha": "^5.1.1",
     "nodemon": "^1.17.3",
+    "prettier": "^1.13.4",
     "redux-logger": "^3.0.6",
     "request": "^2.85.0",
     "request-promise": "^4.2.2",

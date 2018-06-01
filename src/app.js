@@ -29,10 +29,24 @@ const nxt = require('next')({ dev, quiet: true });
 const nxtHandler = nxt.getRequestHandler(); 
 
 const app = express(feathers());
-app.startNext = () => nxt.prepare();
-app.configure(configuration()); // Load app configuration
 
-Object.keys(hostConfig).forEach(key => ( // load host config
+app.run = async port => {
+  const server = app.listen(port);
+  await nxt.prepare();
+
+  if(dev) {
+    server.on('upgrade', (req, socket) => {
+      nxtHandler(req, socket, parse(stripBase(req.url), true));
+    });
+  }
+  return server;
+};
+
+// Load app configuration
+app.configure(configuration()); 
+
+// load host config
+Object.keys(hostConfig).forEach(key => ( 
   app.set(key, hostConfig[key])
 )); 
 app.set('didSetup', false); 
