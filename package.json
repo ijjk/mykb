@@ -24,8 +24,8 @@
     "yarn": ">= 0.18.0"
   },
   "scripts": {
-    "format": "prettier --write '**/*.js'",
-    "lint": "eslint ./src ./test ./pages ./redux ./util ./comps --config .eslintrc.json",
+    "format": "prettier --ignore-path .eslintignore --write '**/*.js'",
+    "lint": "eslint . --config .eslintrc.json",
     "mocha": "cross-env NODE_ENV=production mocha test/ --recursive --exit",
     "build": "next build",
     "analyze": "cross-env ANALYZE=true next build",

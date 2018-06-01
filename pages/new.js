@@ -1,2 +1,2 @@
-import MngDoc from '../comps/MngDoc'; 
-export default MngDoc; 
+import MngDoc from '../comps/MngDoc'
+export default MngDoc

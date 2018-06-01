@@ -1,4 +1,2 @@
-const Spinner = (props) => (
-  <div className='spinner' {...props}></div>
-);
-export default Spinner; 
+const Spinner = props => <div className="spinner" {...props} />
+export default Spinner

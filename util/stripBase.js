@@ -1,8 +1,8 @@
-const basePath = require('./basePath'); 
+const basePath = require('./basePath')
 
 module.exports = url => {
-  if(basePath !== '/') {
-    url = url.split(basePath).join(''); 
+  if (basePath !== '/') {
+    url = url.split(basePath).join('')
   }
-  return url; 
-};
+  return url
+}
