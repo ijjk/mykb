@@ -2,7 +2,10 @@ import App, { Container } from 'next/app'
 import store from '../redux/store'
 import { Provider } from 'react-redux'
 import { setUser, doLogin } from '../redux/actions/userAct'
-import '../styles/style.sass'
+// Don't load sass during ssr
+if (!global.kbConf) {
+  require('../styles/style.sass')
+}
 const ssr = typeof window === 'undefined'
 
 export default class MyApp extends App {

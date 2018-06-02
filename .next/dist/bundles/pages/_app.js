@@ -433,8 +433,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_redux__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_react_redux___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_react_redux__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__redux_actions_userAct__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_style_sass__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__styles_style_sass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__styles_style_sass__);
 
 
 
@@ -461,7 +459,11 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+ // Don't load sass during ssr
 
+if (!global.kbConf) {
+  __webpack_require__(31);
+}
 
 var ssr = typeof window === 'undefined';
 
