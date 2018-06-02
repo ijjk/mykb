@@ -3,7 +3,7 @@ import getUrl from '../util/getUrl'
 
 export default class MyDocument extends Document {
   render() {
-    const favicon = getUrl('favicon.icon')
+    const favicon = getUrl('favicon.ico')
     return (
       <html>
         <Head>
