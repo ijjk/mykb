@@ -1270,16 +1270,7 @@ function Markdown__extends() { Markdown__extends = Object.assign || function (ta
 
 
 
-var Markdown = dynamic__default()( false ? new (require('next/dynamic').SameLoopPromise)(function (resolve, reject) {
-  eval('require.ensure = function (deps, callback) { callback(require) }');
-
-  require.ensure([], function (require) {
-    var m = require('react-markdown');
-
-    m.__webpackChunkName = 'react_markdown_2310f29285bb72f338f5fec99785c0fb.js';
-    resolve(m);
-  }, 'chunks/react_markdown_2310f29285bb72f338f5fec99785c0fb.js');
-}) : new (__webpack_require__(13).SameLoopPromise)(function (resolve, reject) {
+var Markdown = dynamic__default()(new (__webpack_require__(13).SameLoopPromise)(function (resolve, reject) {
   var weakId = /*require.resolve*/(20);
 
   try {
@@ -1404,16 +1395,7 @@ var CodeMirrorSkel = function CodeMirrorSkel() {
   }));
 };
 
-var CodeMirror = __WEBPACK_IMPORTED_MODULE_3_next_dynamic___default()( false ? new (require('next/dynamic').SameLoopPromise)(function (resolve, reject) {
-  eval('require.ensure = function (deps, callback) { callback(require) }');
-
-  require.ensure([], function (require) {
-    var m = require('../comps/CodeMirror');
-
-    m.__webpackChunkName = 'comps_CodeMirror_51c113b8f0eb112cf9be60e9d3293726.js';
-    resolve(m);
-  }, 'chunks/comps_CodeMirror_51c113b8f0eb112cf9be60e9d3293726.js');
-}) : new (__webpack_require__(13).SameLoopPromise)(function (resolve, reject) {
+var CodeMirror = __WEBPACK_IMPORTED_MODULE_3_next_dynamic___default()(new (__webpack_require__(13).SameLoopPromise)(function (resolve, reject) {
   var weakId = /*require.resolve*/(22);
 
   try {

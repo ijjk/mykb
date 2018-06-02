@@ -49,7 +49,7 @@ host.json
 | ---- | ----------- |
 | host | The host to listen on |
 | port | The port to listen on |
-| prefixPath | Used to prefix all urls for reverse proxies | 
+| pathPrefix | Used to prefix all urls for reverse proxies | 
 
 production.json (overrides default.json with production NODE_ENV var) 
 

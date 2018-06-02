@@ -33,8 +33,7 @@
     "start:dev": "node src/",
     "start": "cross-env NODE_ENV=production node src/",
     "test": "npm run lint && npm run build && npm run mocha",
-    "check:build": "if-env NODE_ENV=production && npm run build || echo ''",
-    "postinstall": "node ./genSecret.js && npm run check:build"
+    "postinstall": "node ./genSecret.js"
   },
   "dependencies": {
     "@feathersjs/authentication": "^2.1.5",

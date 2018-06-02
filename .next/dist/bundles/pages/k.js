@@ -1242,16 +1242,7 @@ function Markdown__extends() { Markdown__extends = Object.assign || function (ta
 
 
 
-var Markdown = dynamic__default()( false ? new (require('next/dynamic').SameLoopPromise)(function (resolve, reject) {
-  eval('require.ensure = function (deps, callback) { callback(require) }');
-
-  require.ensure([], function (require) {
-    var m = require('react-markdown');
-
-    m.__webpackChunkName = 'react_markdown_2310f29285bb72f338f5fec99785c0fb.js';
-    resolve(m);
-  }, 'chunks/react_markdown_2310f29285bb72f338f5fec99785c0fb.js');
-}) : new (__webpack_require__(13).SameLoopPromise)(function (resolve, reject) {
+var Markdown = dynamic__default()(new (__webpack_require__(13).SameLoopPromise)(function (resolve, reject) {
   var weakId = /*require.resolve*/(20);
 
   try {
