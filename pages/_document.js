@@ -3,7 +3,7 @@ import getUrl from '../util/getUrl'
 
 export default class MyDocument extends Document {
   render() {
-    const favicon = getUrl('favicon.ico')
+    const favicon = getUrl('favicon.icon')
     return (
       <html>
         <Head>
@@ -16,6 +16,11 @@ export default class MyDocument extends Document {
           <link rel="icon" href={favicon} type="image/x-icon" />
           <link rel="stylesheet" href={getUrl('/_next/static/style.css')} />
           <title>My Knowledge Base</title>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: 'window.kbConf=' + JSON.stringify(app.get('kbConf')),
+            }}
+          />
         </Head>
         <body>
           <Main />

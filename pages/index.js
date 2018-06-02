@@ -2,12 +2,14 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import Router from 'next/router'
 import Paginate from 'react-paginate'
+import { format } from 'url'
 import Page from '../comps/Page'
 import PaddedRow from '../comps/PaddedRow'
 import Spinner from '../comps/Spinner'
 import DocItem from '../comps/DocItem'
 import { $limit, getDocs, buildQ } from '../util/getDocs'
 import getJwt from '../util/getJwt'
+import getUrl from '../util/getUrl'
 import mapUser from '../util/mapUser'
 
 class Index extends Component {
@@ -20,6 +22,7 @@ class Index extends Component {
     total: 0,
     docs: [],
   }
+
   static async getInitialProps({ req, query }) {
     let page = 1,
       $search = ''
@@ -33,6 +36,25 @@ class Index extends Component {
     const data = await getDocs(q, req ? jwt : false)
     return { ...data, page, $search }
   }
+
+  static getDerivedStateFromProps(nextProps, prevState) {
+    let { docs, total, page, $search } = nextProps
+    if (
+      docs.length !== prevState.docs.length ||
+      page !== prevState.page ||
+      $search !== prevState.$search
+    ) {
+      return { total, docs, page, $search, pending: false }
+    }
+    return null
+  }
+
+  pushQuery = query =>
+    Router.push(
+      { pathname: '/', query },
+      format({ pathname: getUrl('/'), query })
+    )
+
   updDocs = (time, doSearch) => {
     clearTimeout(this.docsTime)
     this.docsTime = setTimeout(async () => {
@@ -40,7 +62,7 @@ class Index extends Component {
       if (doSearch) {
         const query = { search: $search }
         if (!$search) delete query.search
-        Router.push({ pathname: '/', query })
+        this.pushQuery(query)
       }
       this.setState({ error: null })
       this.docsTime = setTimeout(() => {
@@ -53,10 +75,12 @@ class Index extends Component {
       this.setState({ ...data, pending: false })
     }, time || 275)
   }
+
   updQuery = e => {
     this.setState({ [e.target.id]: e.target.value })
     this.updDocs(0, e.target.id === '$search')
   }
+
   handlePage = ({ selected }) => {
     const { $search } = this.state
     const page = selected + 1
@@ -64,25 +88,16 @@ class Index extends Component {
     this.setState({ page })
     if (page > 1) query.page = page
     if ($search) query.search = $search
-    Router.push({ pathname: '/', query })
+    this.pushQuery(query)
     this.updDocs(1)
   }
-  static getDerivedStateFromProps(nextProps, prevState) {
-    let { docs, total, page, $search } = nextProps
-    if (
-      docs.length !== prevState.docs.length ||
-      page !== prevState.page ||
-      $search !== prevState.$search
-    ) {
-      return { total, docs, page, $search, pending: false }
-    }
-    return null
-  }
+
   componentDidUpdate(prevProps) {
     const { user, docs } = this.props
     if (prevProps.user.email === user.email) return
     if (user.email && docs.length === 0) this.updDocs(1)
   }
+
   render() {
     const { $sort, $search, pending, error, docs, total, page } = this.state
     const pages = Math.ceil(total / $limit)

@@ -1,4 +1,7 @@
 {
+  "globals": {
+    "app": false
+  },
   "parser": "babel-eslint",
   "plugins": [
     "react"

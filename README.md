@@ -49,7 +49,7 @@ host.json
 | ---- | ----------- |
 | host | The host to listen on |
 | port | The port to listen on |
-| basePath | Used to prefix all urls for reverse proxies | 
+| prefixPath | Used to prefix all urls for reverse proxies | 
 
 production.json (overrides default.json with production NODE_ENV var) 
 
@@ -84,12 +84,6 @@ Lint both
 ```
 npm lint
 ```
-
-## Changelog
-
-__0.1.0__
-
-- Initial release
 
 ## License
 

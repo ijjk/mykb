@@ -1,6 +1,5 @@
 {
   "host": "localhost",
   "port": 3030,
-  "protocol": "http",
-  "basePath": "/"
+  "pathPrefix": "/"
 }

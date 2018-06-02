@@ -18,7 +18,7 @@ class k extends Component {
       headers: { Authorization: getJwt() },
       method: 'DELETE',
     }).catch(({ message }) => ({ ok: false, message }))
-    if (del.ok) Router.push('/')
+    if (del.ok) Router.push('/', getUrl('/'))
     else {
       if (!del.message) {
         const data = await del.json()

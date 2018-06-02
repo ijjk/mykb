@@ -21,14 +21,15 @@ const channels = require('./channels')
 const authentication = require('./authentication')
 
 const dev = process.env.NODE_ENV !== 'production'
-const basePath = require('../util/basePath')
-const stripBase = require('../util/stripBase')
+const pathPrefix = require('../util/pathPrefix')
+const stripBase = require('../util/stripPrefix')
 const getUrl = require('../util/getUrl')
 const { parse } = require('url')
 const nxt = require('next')({ dev, quiet: true })
 const nxtHandler = nxt.getRequestHandler()
 
 const app = express(feathers())
+global.app = app
 
 app.run = async port => {
   const server = app.listen(port)
@@ -36,7 +37,8 @@ app.run = async port => {
 
   if (dev) {
     server.on('upgrade', (req, socket) => {
-      nxtHandler(req, socket, parse(stripBase(req.url), true))
+      req.url = stripBase(req.url)
+      nxtHandler(req, socket, parse(req.url, true))
     })
   }
   return server
@@ -45,10 +47,12 @@ app.run = async port => {
 // Load app configuration
 app.configure(configuration())
 
-// load host config
+// load host and setup settings
 Object.keys(hostConfig).forEach(key => app.set(key, hostConfig[key]))
+app.set('kbConf', {
+  pathPrefix,
+})
 app.set('didSetup', false)
-
 try {
   fs.statSync(path.join(__dirname, '..', 'db', '.didSetup'))
   app.set('didSetup', true)
@@ -88,6 +92,8 @@ app.configure(authentication) // Set up authentication
 app.configure(services) // Set up our services (see `services/index.js`)
 app.configure(channels) // Set up event channels (see channels.js)
 
+nxt.setAssetPrefix(pathPrefix)
+
 const checkJWT = async (req, res, next) => {
   const result = await req.app.authenticate('jwt', {})(req)
   if (result.success) {
@@ -97,7 +103,6 @@ const checkJWT = async (req, res, next) => {
   }
   next()
 }
-nxt.setAssetPrefix(basePath) // setup next.js routes
 ;['/', '/logout', '/new', '/settings'].forEach(route => {
   app.get(getUrl(route), cookieParser, checkJWT, (req, res) => {
     const { query } = parse(req.url, true)
@@ -115,9 +120,11 @@ app.use((req, res, next) => {
   let accept = req.get('accept')
   if (accept && accept.toLowerCase() === 'application/json')
     return notFound(req, res, next)
-  if (req.url.substr(0, basePath.length) !== basePath)
+  if (req.url.substr(0, pathPrefix.length) !== pathPrefix)
     return nxt.render404(req, res)
-  nxtHandler(req, res, parse(stripBase(req.url), true))
+
+  req.url = stripBase(req.url)
+  nxtHandler(req, res, parse(req.url, true))
 })
 
 app.use(express.errorHandler({ logger }))
