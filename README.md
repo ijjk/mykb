@@ -68,23 +68,6 @@ trustIPs.json - An array of [proxy-addr](https://www.npmjs.com/package/proxy-add
 
 Simply run `npm test` and all your tests in the `test/` directory will be run
 
-## Linting
-
-Lint just react stuff
-```
-npm lint:react
-```
-
-Lint just server stuff
-```
-npm lint:node
-```
-
-Lint both
-```
-npm lint
-```
-
 ## License
 
 Copyright (c) 2017
