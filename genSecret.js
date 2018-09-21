@@ -3,14 +3,19 @@ const fs = require('fs')
 const path = require('path')
 const crypto = require('crypto')
 const secret = crypto.randomBytes(256).toString('hex')
-const { NODE_ENV } = process.env
-let confFile = 'default.json'
+const isProd = process.env.NODE_ENV === 'production'
+const confFile = (isProd ? 'production' : 'default') + '.json'
+const config = require('./config/' + confFile)
+const configPath = path.join(__dirname, 'config', confFile)
 
-if (NODE_ENV && NODE_ENV.toLowerCase() === 'production') {
-  confFile = 'production.json'
+// if in production check if secret exists and -f switch is set
+if (isProd && config.authentication && config.authentication.secret) {
+  if (!process.argv.some(arg => arg === '-f')) {
+    return console.log(
+      'Secret already exists, not updating. Use -f to force update'
+    )
+  }
 }
-let config = require('./config/' + confFile)
-let configPath = path.join(__dirname, 'config', confFile)
 
 if (!config.authentication) {
   config.authentication = { secret }

@@ -11,13 +11,12 @@ const Page = ({ user, children }) => {
     <div>
       <Header />
       <KeyShortcuts />
-      {user.email ? (
-        <div className="container content">{children}</div>
-      ) : user.setup ? (
-        <Setup />
-      ) : (
-        <Login {...{ user }} />
-      )}
+      {(() => {
+        if (user.email) {
+          return <div className="container content">{children}</div>
+        }
+        return user.setup ? <Setup /> : <Login {...{ user }} />
+      })()}
       <Footer />
     </div>
   )

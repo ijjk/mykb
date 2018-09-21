@@ -27,6 +27,7 @@ class k extends Component {
       window.alert(`Could not delete doc, ${del.message}`)
     }
   }
+
   render() {
     const { found, id, doc } = this.props
     if (!found)

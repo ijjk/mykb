@@ -1,0 +1,2518 @@
+{
+  "react": [
+    {
+      "id": 0,
+      "name": "./node_modules/react/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime/regenerator": [
+    {
+      "id": 1,
+      "name": "./node_modules/@babel/runtime/regenerator/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../util/getUrl": [
+    {
+      "id": 2,
+      "name": "./util/getUrl.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/_core": [
+    {
+      "id": 3,
+      "name": "./node_modules/core-js/library/modules/_core.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/interopRequireDefault": [
+    {
+      "id": 4,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "prop-types": [
+    {
+      "id": 5,
+      "name": "./node_modules/prop-types/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_export": [
+    {
+      "id": 6,
+      "name": "./node_modules/core-js/library/modules/_export.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_global": [
+    {
+      "id": 7,
+      "name": "./node_modules/core-js/library/modules/_global.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../util/getJwt": [
+    {
+      "id": 8,
+      "name": "./util/getJwt.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "react-redux": [
+    {
+      "id": 9,
+      "name": "./node_modules/react-redux/es/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../redux/actions/userAct": [
+    {
+      "id": 10,
+      "name": "./redux/actions/userAct.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_wks": [
+    {
+      "id": 11,
+      "name": "./node_modules/core-js/library/modules/_wks.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../util/mapUser": [
+    {
+      "id": 12,
+      "name": "./util/mapUser.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_is-object": [
+    {
+      "id": 13,
+      "name": "./node_modules/core-js/library/modules/_is-object.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/classCallCheck": [
+    {
+      "id": 14,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/createClass": [
+    {
+      "id": 15,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/createClass.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "isomorphic-unfetch": [
+    {
+      "id": 16,
+      "name": "./node_modules/isomorphic-unfetch/browser.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../comps/Page": [
+    {
+      "id": 17,
+      "name": "./comps/Page.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "next/router": [
+    {
+      "id": 19,
+      "name": "./node_modules/next/router.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-dp": [
+    {
+      "id": 20,
+      "name": "./node_modules/core-js/library/modules/_object-dp.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_an-object": [
+    {
+      "id": 21,
+      "name": "./node_modules/core-js/library/modules/_an-object.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_descriptors": [
+    {
+      "id": 22,
+      "name": "./node_modules/core-js/library/modules/_descriptors.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../comps/PaddedRow": [
+    {
+      "id": 23,
+      "name": "./comps/PaddedRow.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_ctx": [
+    {
+      "id": 24,
+      "name": "./node_modules/core-js/library/modules/_ctx.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/defineProperty": [
+    {
+      "id": 25,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/defineProperty.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../redux/store": [
+    {
+      "id": 26,
+      "name": "./redux/store.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_fails": [
+    {
+      "id": 27,
+      "name": "./node_modules/core-js/library/modules/_fails.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_hide": [
+    {
+      "id": 28,
+      "name": "./node_modules/core-js/library/modules/_hide.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/objectSpread": [
+    {
+      "id": 29,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/objectSpread.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/possibleConstructorReturn": [
+    {
+      "id": 30,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/possibleConstructorReturn.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/getPrototypeOf": [
+    {
+      "id": 31,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/getPrototypeOf.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/inherits": [
+    {
+      "id": 32,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/inherits.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../comps/Spinner": [
+    {
+      "id": 35,
+      "name": "./comps/Spinner.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/interopRequireWildcard": [
+    {
+      "id": 36,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/interopRequireWildcard.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_to-iobject": [
+    {
+      "id": 37,
+      "name": "./node_modules/core-js/library/modules/_to-iobject.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_has": [
+    {
+      "id": 38,
+      "name": "./node_modules/core-js/library/modules/_has.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_a-function": [
+    {
+      "id": 39,
+      "name": "./node_modules/core-js/library/modules/_a-function.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../helpers/typeof": [
+    {
+      "id": 40,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/typeof.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../lib/utils": [
+    {
+      "id": 41,
+      "name": "./node_modules/next/dist/lib/utils.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_to-object": [
+    {
+      "id": 43,
+      "name": "./node_modules/core-js/library/modules/_to-object.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/core-js/promise": [
+    {
+      "id": 44,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/promise.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es6.string.iterator": [
+    {
+      "id": 45,
+      "name": "./node_modules/core-js/library/modules/es6.string.iterator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_iterators": [
+    {
+      "id": 46,
+      "name": "./node_modules/core-js/library/modules/_iterators.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "next/link": [
+    {
+      "id": 47,
+      "name": "./node_modules/next/link.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "redux": [
+    {
+      "id": 48,
+      "name": "./node_modules/redux/es/redux.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_cof": [
+    {
+      "id": 49,
+      "name": "./node_modules/core-js/library/modules/_cof.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_property-desc": [
+    {
+      "id": 50,
+      "name": "./node_modules/core-js/library/modules/_property-desc.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_library": [
+    {
+      "id": 51,
+      "name": "./node_modules/core-js/library/modules/_library.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_set-to-string-tag": [
+    {
+      "id": 52,
+      "name": "./node_modules/core-js/library/modules/_set-to-string-tag.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-keys": [
+    {
+      "id": 53,
+      "name": "./node_modules/core-js/library/modules/_object-keys.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-create": [
+    {
+      "id": 54,
+      "name": "./node_modules/core-js/library/modules/_object-create.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/object/keys": [
+    {
+      "id": 55,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/web.dom.iterable": [
+    {
+      "id": 56,
+      "name": "./node_modules/core-js/library/modules/web.dom.iterable.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_for-of": [
+    {
+      "id": 57,
+      "name": "./node_modules/core-js/library/modules/_for-of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../lib/router": [
+    {
+      "id": 58,
+      "name": "./node_modules/next/dist/lib/router/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "url": [
+    {
+      "id": 60,
+      "name": "./node_modules/url/url.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-pie": [
+    {
+      "id": 63,
+      "name": "./node_modules/core-js/library/modules/_object-pie.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/object/define-property": [
+    {
+      "id": 64,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_uid": [
+    {
+      "id": 65,
+      "name": "./node_modules/core-js/library/modules/_uid.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_to-length": [
+    {
+      "id": 66,
+      "name": "./node_modules/core-js/library/modules/_to-length.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/regenerator": [
+    {
+      "id": 67,
+      "name": "./node_modules/@babel/runtime-corejs2/regenerator/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/asyncToGenerator": [
+    {
+      "id": 68,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/asyncToGenerator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_classof": [
+    {
+      "id": 69,
+      "name": "./node_modules/core-js/library/modules/_classof.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/core-js/set": [
+    {
+      "id": 70,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/set.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./../node_modules/webpack/buildin/global.js": [
+    {
+      "id": 71,
+      "name": "./node_modules/webpack/buildin/global.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/core-js/object/assign": [
+    {
+      "id": 72,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/assertThisInitialized": [
+    {
+      "id": 73,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/assertThisInitialized.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../lib/loadable": [
+    {
+      "id": 74,
+      "name": "./node_modules/next/dist/lib/loadable.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "invariant": [
+    {
+      "id": 75,
+      "name": "./node_modules/invariant/browser.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_iobject": [
+    {
+      "id": 77,
+      "name": "./node_modules/core-js/library/modules/_iobject.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_defined": [
+    {
+      "id": 78,
+      "name": "./node_modules/core-js/library/modules/_defined.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-gopd": [
+    {
+      "id": 79,
+      "name": "./node_modules/core-js/library/modules/_object-gopd.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_to-primitive": [
+    {
+      "id": 80,
+      "name": "./node_modules/core-js/library/modules/_to-primitive.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_dom-create": [
+    {
+      "id": 81,
+      "name": "./node_modules/core-js/library/modules/_dom-create.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-sap": [
+    {
+      "id": 82,
+      "name": "./node_modules/core-js/library/modules/_object-sap.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_meta": [
+    {
+      "id": 83,
+      "name": "./node_modules/core-js/library/modules/_meta.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_shared": [
+    {
+      "id": 84,
+      "name": "./node_modules/core-js/library/modules/_shared.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/_wks-ext": [
+    {
+      "id": 85,
+      "name": "./node_modules/core-js/library/modules/_wks-ext.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_wks-define": [
+    {
+      "id": 86,
+      "name": "./node_modules/core-js/library/modules/_wks-define.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_to-integer": [
+    {
+      "id": 87,
+      "name": "./node_modules/core-js/library/modules/_to-integer.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_shared-key": [
+    {
+      "id": 88,
+      "name": "./node_modules/core-js/library/modules/_shared-key.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_enum-bug-keys": [
+    {
+      "id": 89,
+      "name": "./node_modules/core-js/library/modules/_enum-bug-keys.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-gops": [
+    {
+      "id": 90,
+      "name": "./node_modules/core-js/library/modules/_object-gops.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_is-array": [
+    {
+      "id": 91,
+      "name": "./node_modules/core-js/library/modules/_is-array.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es6.object.to-string": [
+    {
+      "id": 92,
+      "name": "./node_modules/core-js/library/modules/es6.object.to-string.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_iter-define": [
+    {
+      "id": 93,
+      "name": "./node_modules/core-js/library/modules/_iter-define.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_an-instance": [
+    {
+      "id": 94,
+      "name": "./node_modules/core-js/library/modules/_an-instance.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./core.get-iterator-method": [
+    {
+      "id": 95,
+      "name": "./node_modules/core-js/library/modules/core.get-iterator-method.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_new-promise-capability": [
+    {
+      "id": 96,
+      "name": "./node_modules/core-js/library/modules/_new-promise-capability.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_redefine-all": [
+    {
+      "id": 97,
+      "name": "./node_modules/core-js/library/modules/_redefine-all.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/slicedToArray": [
+    {
+      "id": 98,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/slicedToArray.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/core-js/array/is-array": [
+    {
+      "id": 99,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../lib/EventEmitter": [
+    {
+      "id": 100,
+      "name": "./node_modules/next/dist/lib/EventEmitter.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "hoist-non-react-statics": [
+    {
+      "id": 101,
+      "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "symbol-observable": [
+    {
+      "id": 103,
+      "name": "./node_modules/symbol-observable/es/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/object/get-own-property-descriptor": [
+    {
+      "id": 104,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_ie8-dom-define": [
+    {
+      "id": 105,
+      "name": "./node_modules/core-js/library/modules/_ie8-dom-define.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.symbol": [
+    {
+      "id": 106,
+      "name": "./node_modules/core-js/library/modules/es6.symbol.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_redefine": [
+    {
+      "id": 107,
+      "name": "./node_modules/core-js/library/modules/_redefine.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-keys-internal": [
+    {
+      "id": 108,
+      "name": "./node_modules/core-js/library/modules/_object-keys-internal.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_html": [
+    {
+      "id": 109,
+      "name": "./node_modules/core-js/library/modules/_html.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-gopn": [
+    {
+      "id": 110,
+      "name": "./node_modules/core-js/library/modules/_object-gopn.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "regenerator-runtime": [
+    {
+      "id": 111,
+      "name": "./node_modules/regenerator-runtime/runtime-module.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-gpo": [
+    {
+      "id": 112,
+      "name": "./node_modules/core-js/library/modules/_object-gpo.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_iter-step": [
+    {
+      "id": 113,
+      "name": "./node_modules/core-js/library/modules/_iter-step.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_iter-call": [
+    {
+      "id": 114,
+      "name": "./node_modules/core-js/library/modules/_iter-call.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_is-array-iter": [
+    {
+      "id": 115,
+      "name": "./node_modules/core-js/library/modules/_is-array-iter.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_species-constructor": [
+    {
+      "id": 116,
+      "name": "./node_modules/core-js/library/modules/_species-constructor.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_task": [
+    {
+      "id": 117,
+      "name": "./node_modules/core-js/library/modules/_task.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_invoke": [
+    {
+      "id": 118,
+      "name": "./node_modules/core-js/library/modules/_invoke.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_perform": [
+    {
+      "id": 119,
+      "name": "./node_modules/core-js/library/modules/_perform.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_promise-resolve": [
+    {
+      "id": 120,
+      "name": "./node_modules/core-js/library/modules/_promise-resolve.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_set-species": [
+    {
+      "id": 121,
+      "name": "./node_modules/core-js/library/modules/_set-species.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_iter-detect": [
+    {
+      "id": 122,
+      "name": "./node_modules/core-js/library/modules/_iter-detect.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "object-assign": [
+    {
+      "id": 123,
+      "name": "./node_modules/object-assign/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./setPrototypeOf": [
+    {
+      "id": 124,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/setPrototypeOf.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/object/set-prototype-of": [
+    {
+      "id": 125,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_validate-collection": [
+    {
+      "id": 126,
+      "name": "./node_modules/core-js/library/modules/_validate-collection.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./../../../webpack/buildin/module.js": [
+    {
+      "id": 127,
+      "name": "./node_modules/webpack/buildin/module.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./shallow-equals": [
+    {
+      "id": 128,
+      "name": "./node_modules/next/dist/lib/shallow-equals.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "unfetch": [
+    {
+      "id": 129,
+      "name": "./node_modules/isomorphic-unfetch/node_modules/unfetch/dist/unfetch.es.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../util/keys": [
+    {
+      "id": 130,
+      "name": "./util/keys.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./ponyfill.js": [
+    {
+      "id": 131,
+      "name": "./node_modules/symbol-observable/es/ponyfill.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_freeGlobal.js": [
+    {
+      "id": 132,
+      "name": "./node_modules/lodash-es/_freeGlobal.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./../../../process/browser.js": [
+    {
+      "id": 134,
+      "name": "./node_modules/process/browser.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/object/get-own-property-descriptor": [
+    {
+      "id": 137,
+      "name": "./node_modules/core-js/library/fn/object/get-own-property-descriptor.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.object.get-own-property-descriptor": [
+    {
+      "id": 138,
+      "name": "./node_modules/core-js/library/modules/es6.object.get-own-property-descriptor.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/object/define-property": [
+    {
+      "id": 139,
+      "name": "./node_modules/core-js/library/fn/object/define-property.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.object.define-property": [
+    {
+      "id": 140,
+      "name": "./node_modules/core-js/library/modules/es6.object.define-property.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/object/get-own-property-symbols": [
+    {
+      "id": 142,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/object/get-own-property-symbols": [
+    {
+      "id": 143,
+      "name": "./node_modules/core-js/library/fn/object/get-own-property-symbols.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_enum-keys": [
+    {
+      "id": 144,
+      "name": "./node_modules/core-js/library/modules/_enum-keys.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_array-includes": [
+    {
+      "id": 145,
+      "name": "./node_modules/core-js/library/modules/_array-includes.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_to-absolute-index": [
+    {
+      "id": 146,
+      "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-dps": [
+    {
+      "id": 147,
+      "name": "./node_modules/core-js/library/modules/_object-dps.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-gopn-ext": [
+    {
+      "id": 148,
+      "name": "./node_modules/core-js/library/modules/_object-gopn-ext.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/object/keys": [
+    {
+      "id": 149,
+      "name": "./node_modules/core-js/library/fn/object/keys.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.object.keys": [
+    {
+      "id": 150,
+      "name": "./node_modules/core-js/library/modules/es6.object.keys.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./runtime": [
+    {
+      "id": 151,
+      "name": "./node_modules/regenerator-runtime/runtime.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/promise": [
+    {
+      "id": 152,
+      "name": "./node_modules/core-js/library/fn/promise.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_string-at": [
+    {
+      "id": 153,
+      "name": "./node_modules/core-js/library/modules/_string-at.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_iter-create": [
+    {
+      "id": 154,
+      "name": "./node_modules/core-js/library/modules/_iter-create.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./es6.array.iterator": [
+    {
+      "id": 155,
+      "name": "./node_modules/core-js/library/modules/es6.array.iterator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_add-to-unscopables": [
+    {
+      "id": 156,
+      "name": "./node_modules/core-js/library/modules/_add-to-unscopables.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es6.promise": [
+    {
+      "id": 157,
+      "name": "./node_modules/core-js/library/modules/es6.promise.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_microtask": [
+    {
+      "id": 158,
+      "name": "./node_modules/core-js/library/modules/_microtask.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_user-agent": [
+    {
+      "id": 159,
+      "name": "./node_modules/core-js/library/modules/_user-agent.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es7.promise.finally": [
+    {
+      "id": 160,
+      "name": "./node_modules/core-js/library/modules/es7.promise.finally.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es7.promise.try": [
+    {
+      "id": 161,
+      "name": "./node_modules/core-js/library/modules/es7.promise.try.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./arrayWithHoles": [
+    {
+      "id": 162,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/arrayWithHoles.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/array/is-array": [
+    {
+      "id": 163,
+      "name": "./node_modules/core-js/library/fn/array/is-array.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.array.is-array": [
+    {
+      "id": 164,
+      "name": "./node_modules/core-js/library/modules/es6.array.is-array.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./iterableToArrayLimit": [
+    {
+      "id": 165,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/iterableToArrayLimit.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/get-iterator": [
+    {
+      "id": 166,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/get-iterator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/get-iterator": [
+    {
+      "id": 167,
+      "name": "./node_modules/core-js/library/fn/get-iterator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/core.get-iterator": [
+    {
+      "id": 168,
+      "name": "./node_modules/core-js/library/modules/core.get-iterator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./nonIterableRest": [
+    {
+      "id": 169,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/nonIterableRest.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./cjs/react.production.min.js": [
+    {
+      "id": 170,
+      "name": "./node_modules/react/cjs/react.production.min.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "react-dom": [
+    {
+      "id": 171,
+      "name": "./node_modules/react-dom/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./cjs/react-dom.production.min.js": [
+    {
+      "id": 172,
+      "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/symbol/iterator": [
+    {
+      "id": 176,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/symbol/iterator": [
+    {
+      "id": 177,
+      "name": "./node_modules/core-js/library/fn/symbol/iterator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/symbol": [
+    {
+      "id": 178,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/symbol.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/symbol": [
+    {
+      "id": 179,
+      "name": "./node_modules/core-js/library/fn/symbol/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es7.symbol.async-iterator": [
+    {
+      "id": 180,
+      "name": "./node_modules/core-js/library/modules/es7.symbol.async-iterator.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es7.symbol.observable": [
+    {
+      "id": 181,
+      "name": "./node_modules/core-js/library/modules/es7.symbol.observable.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/helpers/construct": [
+    {
+      "id": 182,
+      "name": "./node_modules/@babel/runtime-corejs2/helpers/construct.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/reflect/construct": [
+    {
+      "id": 183,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/reflect/construct.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/reflect/construct": [
+    {
+      "id": 184,
+      "name": "./node_modules/core-js/library/fn/reflect/construct.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.reflect.construct": [
+    {
+      "id": 185,
+      "name": "./node_modules/core-js/library/modules/es6.reflect.construct.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_bind": [
+    {
+      "id": 186,
+      "name": "./node_modules/core-js/library/modules/_bind.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/object/set-prototype-of": [
+    {
+      "id": 187,
+      "name": "./node_modules/core-js/library/fn/object/set-prototype-of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.object.set-prototype-of": [
+    {
+      "id": 188,
+      "name": "./node_modules/core-js/library/modules/es6.object.set-prototype-of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_set-proto": [
+    {
+      "id": 189,
+      "name": "./node_modules/core-js/library/modules/_set-proto.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./router": [
+    {
+      "id": 190,
+      "name": "./node_modules/next/dist/lib/router/router.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/set": [
+    {
+      "id": 191,
+      "name": "./node_modules/core-js/library/fn/set.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es6.set": [
+    {
+      "id": 192,
+      "name": "./node_modules/core-js/library/modules/es6.set.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_collection-strong": [
+    {
+      "id": 193,
+      "name": "./node_modules/core-js/library/modules/_collection-strong.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_collection": [
+    {
+      "id": 194,
+      "name": "./node_modules/core-js/library/modules/_collection.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_array-methods": [
+    {
+      "id": 195,
+      "name": "./node_modules/core-js/library/modules/_array-methods.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_array-species-create": [
+    {
+      "id": 196,
+      "name": "./node_modules/core-js/library/modules/_array-species-create.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_array-species-constructor": [
+    {
+      "id": 197,
+      "name": "./node_modules/core-js/library/modules/_array-species-constructor.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es7.set.to-json": [
+    {
+      "id": 198,
+      "name": "./node_modules/core-js/library/modules/es7.set.to-json.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_collection-to-json": [
+    {
+      "id": 199,
+      "name": "./node_modules/core-js/library/modules/_collection-to-json.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_array-from-iterable": [
+    {
+      "id": 200,
+      "name": "./node_modules/core-js/library/modules/_array-from-iterable.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es7.set.of": [
+    {
+      "id": 201,
+      "name": "./node_modules/core-js/library/modules/es7.set.of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_set-collection-of": [
+    {
+      "id": 202,
+      "name": "./node_modules/core-js/library/modules/_set-collection-of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../modules/es7.set.from": [
+    {
+      "id": 203,
+      "name": "./node_modules/core-js/library/modules/es7.set.from.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_set-collection-from": [
+    {
+      "id": 204,
+      "name": "./node_modules/core-js/library/modules/_set-collection-from.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "punycode": [
+    {
+      "id": 205,
+      "name": "./node_modules/punycode/punycode.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./util": [
+    {
+      "id": 206,
+      "name": "./node_modules/url/util.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "querystring": [
+    {
+      "id": 207,
+      "name": "./node_modules/querystring-es3/index.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./decode": [
+    {
+      "id": 208,
+      "name": "./node_modules/querystring-es3/decode.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    },
+    {
+      "id": 312,
+      "name": "./node_modules/remark-parse/lib/decode.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./encode": [
+    {
+      "id": 209,
+      "name": "./node_modules/querystring-es3/encode.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../p-queue": [
+    {
+      "id": 210,
+      "name": "./node_modules/next/dist/lib/p-queue.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/object/assign": [
+    {
+      "id": 211,
+      "name": "./node_modules/core-js/library/fn/object/assign.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.object.assign": [
+    {
+      "id": 212,
+      "name": "./node_modules/core-js/library/modules/es6.object.assign.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./_object-assign": [
+    {
+      "id": 213,
+      "name": "./node_modules/core-js/library/modules/_object-assign.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./with-router": [
+    {
+      "id": 214,
+      "name": "./node_modules/next/dist/lib/router/with-router.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/object/get-prototype-of": [
+    {
+      "id": 215,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/object/get-prototype-of": [
+    {
+      "id": 216,
+      "name": "./node_modules/core-js/library/fn/object/get-prototype-of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.object.get-prototype-of": [
+    {
+      "id": 217,
+      "name": "./node_modules/core-js/library/modules/es6.object.get-prototype-of.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../core-js/object/create": [
+    {
+      "id": 218,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/object/create.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/object/create": [
+    {
+      "id": 219,
+      "name": "./node_modules/core-js/library/fn/object/create.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../../modules/es6.object.create": [
+    {
+      "id": 220,
+      "name": "./node_modules/core-js/library/modules/es6.object.create.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./factoryWithThrowingShims": [
+    {
+      "id": 221,
+      "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./lib/ReactPropTypesSecret": [
+    {
+      "id": 222,
+      "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "url-join": [
+    {
+      "id": 231,
+      "name": "./node_modules/url-join/lib/url-join.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./../../webpack/buildin/harmony-module.js": [
+    {
+      "id": 232,
+      "name": "./node_modules/webpack/buildin/harmony-module.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "./dist/lib/link": [
+    {
+      "id": 239,
+      "name": "./node_modules/next/dist/lib/link.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "@babel/runtime-corejs2/core-js/json/stringify": [
+    {
+      "id": 240,
+      "name": "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "core-js/library/fn/json/stringify": [
+    {
+      "id": 241,
+      "name": "./node_modules/core-js/library/fn/json/stringify.js",
+      "file": "static/chunks/commons.be3566392b121f4c3810.js",
+      "publicPath": "static/chunks/commons.be3566392b121f4c3810.js"
+    }
+  ],
+  "../comps/CodeMirror": [
+    {
+      "id": 76,
+      "name": "./comps/CodeMirror.js",
+      "file": "static/chunks/10.92205884f2772342b0b5.js",
+      "publicPath": "static/chunks/10.92205884f2772342b0b5.js"
+    }
+  ],
+  "codemirror": [
+    {
+      "id": 274,
+      "name": "./node_modules/codemirror/lib/codemirror.js",
+      "file": "static/chunks/10.92205884f2772342b0b5.js",
+      "publicPath": "static/chunks/10.92205884f2772342b0b5.js"
+    }
+  ],
+  "codemirror/mode/markdown/markdown": [
+    {
+      "id": 289,
+      "name": "./node_modules/codemirror/mode/markdown/markdown.js",
+      "file": "static/chunks/10.92205884f2772342b0b5.js",
+      "publicPath": "static/chunks/10.92205884f2772342b0b5.js"
+    }
+  ],
+  "../xml/xml": [
+    {
+      "id": 290,
+      "name": "./node_modules/codemirror/mode/xml/xml.js",
+      "file": "static/chunks/10.92205884f2772342b0b5.js",
+      "publicPath": "static/chunks/10.92205884f2772342b0b5.js"
+    }
+  ],
+  "../meta": [
+    {
+      "id": 291,
+      "name": "./node_modules/codemirror/mode/meta.js",
+      "file": "static/chunks/10.92205884f2772342b0b5.js",
+      "publicPath": "static/chunks/10.92205884f2772342b0b5.js"
+    }
+  ],
+  "is-whitespace-character": [
+    {
+      "id": 271,
+      "name": "./node_modules/is-whitespace-character/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "xtend": [
+    {
+      "id": 272,
+      "name": "./node_modules/xtend/immutable.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "trim": [
+    {
+      "id": 273,
+      "name": "./node_modules/trim/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "is-decimal": [
+    {
+      "id": 275,
+      "name": "./node_modules/is-decimal/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "unist-util-visit": [
+    {
+      "id": 276,
+      "name": "./node_modules/unist-util-visit/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "parse-entities": [
+    {
+      "id": 277,
+      "name": "./node_modules/parse-entities/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "repeat-string": [
+    {
+      "id": 278,
+      "name": "./node_modules/repeat-string/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "trim-trailing-lines": [
+    {
+      "id": 279,
+      "name": "./node_modules/trim-trailing-lines/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../util/interrupt": [
+    {
+      "id": 280,
+      "name": "./node_modules/remark-parse/lib/util/interrupt.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../util/normalize": [
+    {
+      "id": 281,
+      "name": "./node_modules/remark-parse/lib/util/normalize.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "path": [
+    {
+      "id": 282,
+      "name": "./node_modules/path-browserify/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "is-alphabetical": [
+    {
+      "id": 283,
+      "name": "./node_modules/is-alphabetical/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./defaults": [
+    {
+      "id": 284,
+      "name": "./node_modules/remark-parse/lib/defaults.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../util/get-indentation": [
+    {
+      "id": 285,
+      "name": "./node_modules/remark-parse/lib/util/get-indentation.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../util/html": [
+    {
+      "id": 286,
+      "name": "./node_modules/remark-parse/lib/util/html.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/tag": [
+    {
+      "id": 287,
+      "name": "./node_modules/remark-parse/lib/locate/tag.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/link": [
+    {
+      "id": 288,
+      "name": "./node_modules/remark-parse/lib/locate/link.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "unified": [
+    {
+      "id": 292,
+      "name": "./node_modules/unified/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "extend": [
+    {
+      "id": 293,
+      "name": "./node_modules/extend/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "bail": [
+    {
+      "id": 294,
+      "name": "./node_modules/bail/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "vfile": [
+    {
+      "id": 295,
+      "name": "./node_modules/vfile/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "vfile-message": [
+    {
+      "id": 296,
+      "name": "./node_modules/vfile-message/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "unist-util-stringify-position": [
+    {
+      "id": 297,
+      "name": "./node_modules/unist-util-stringify-position/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./core.js": [
+    {
+      "id": 298,
+      "name": "./node_modules/vfile/core.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "replace-ext": [
+    {
+      "id": 299,
+      "name": "./node_modules/replace-ext/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "is-buffer": [
+    {
+      "id": 300,
+      "name": "./node_modules/is-buffer/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "trough": [
+    {
+      "id": 301,
+      "name": "./node_modules/trough/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./wrap.js": [
+    {
+      "id": 302,
+      "name": "./node_modules/trough/wrap.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "x-is-string": [
+    {
+      "id": 303,
+      "name": "./node_modules/x-is-string/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "is-plain-obj": [
+    {
+      "id": 304,
+      "name": "./node_modules/is-plain-obj/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "remark-parse": [
+    {
+      "id": 305,
+      "name": "./node_modules/remark-parse/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "unherit": [
+    {
+      "id": 306,
+      "name": "./node_modules/unherit/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "inherits": [
+    {
+      "id": 307,
+      "name": "./node_modules/inherits/inherits_browser.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./lib/parser.js": [
+    {
+      "id": 308,
+      "name": "./node_modules/remark-parse/lib/parser.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "state-toggle": [
+    {
+      "id": 309,
+      "name": "./node_modules/state-toggle/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "vfile-location": [
+    {
+      "id": 310,
+      "name": "./node_modules/vfile-location/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./unescape": [
+    {
+      "id": 311,
+      "name": "./node_modules/remark-parse/lib/unescape.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "character-entities": [
+    {
+      "id": 313,
+      "name": "./node_modules/character-entities/index.json",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "character-entities-legacy": [
+    {
+      "id": 314,
+      "name": "./node_modules/character-entities-legacy/index.json",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "character-reference-invalid": [
+    {
+      "id": 315,
+      "name": "./node_modules/character-reference-invalid/index.json",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "is-hexadecimal": [
+    {
+      "id": 316,
+      "name": "./node_modules/is-hexadecimal/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "is-alphanumerical": [
+    {
+      "id": 317,
+      "name": "./node_modules/is-alphanumerical/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenizer": [
+    {
+      "id": 318,
+      "name": "./node_modules/remark-parse/lib/tokenizer.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./set-options": [
+    {
+      "id": 319,
+      "name": "./node_modules/remark-parse/lib/set-options.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "markdown-escapes": [
+    {
+      "id": 320,
+      "name": "./node_modules/markdown-escapes/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./block-elements.json": [
+    {
+      "id": 321,
+      "name": "./node_modules/remark-parse/lib/block-elements.json",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./parse": [
+    {
+      "id": 322,
+      "name": "./node_modules/remark-parse/lib/parse.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "unist-util-remove-position": [
+    {
+      "id": 323,
+      "name": "./node_modules/unist-util-remove-position/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "unist-util-visit-parents": [
+    {
+      "id": 324,
+      "name": "./node_modules/unist-util-visit/node_modules/unist-util-visit-parents/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    },
+    {
+      "id": 362,
+      "name": "./node_modules/unist-util-visit-parents/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "unist-util-is": [
+    {
+      "id": 325,
+      "name": "./node_modules/unist-util-is/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/newline": [
+    {
+      "id": 326,
+      "name": "./node_modules/remark-parse/lib/tokenize/newline.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/code-indented": [
+    {
+      "id": 327,
+      "name": "./node_modules/remark-parse/lib/tokenize/code-indented.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/code-fenced": [
+    {
+      "id": 328,
+      "name": "./node_modules/remark-parse/lib/tokenize/code-fenced.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/blockquote": [
+    {
+      "id": 329,
+      "name": "./node_modules/remark-parse/lib/tokenize/blockquote.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/heading-atx": [
+    {
+      "id": 330,
+      "name": "./node_modules/remark-parse/lib/tokenize/heading-atx.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/thematic-break": [
+    {
+      "id": 331,
+      "name": "./node_modules/remark-parse/lib/tokenize/thematic-break.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/list": [
+    {
+      "id": 332,
+      "name": "./node_modules/remark-parse/lib/tokenize/list.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../util/remove-indentation": [
+    {
+      "id": 333,
+      "name": "./node_modules/remark-parse/lib/util/remove-indentation.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/heading-setext": [
+    {
+      "id": 334,
+      "name": "./node_modules/remark-parse/lib/tokenize/heading-setext.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/html-block": [
+    {
+      "id": 335,
+      "name": "./node_modules/remark-parse/lib/tokenize/html-block.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/footnote-definition": [
+    {
+      "id": 336,
+      "name": "./node_modules/remark-parse/lib/tokenize/footnote-definition.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "collapse-white-space": [
+    {
+      "id": 337,
+      "name": "./node_modules/collapse-white-space/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/definition": [
+    {
+      "id": 338,
+      "name": "./node_modules/remark-parse/lib/tokenize/definition.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/table": [
+    {
+      "id": 339,
+      "name": "./node_modules/remark-parse/lib/tokenize/table.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/paragraph": [
+    {
+      "id": 340,
+      "name": "./node_modules/remark-parse/lib/tokenize/paragraph.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/escape": [
+    {
+      "id": 341,
+      "name": "./node_modules/remark-parse/lib/tokenize/escape.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/escape": [
+    {
+      "id": 342,
+      "name": "./node_modules/remark-parse/lib/locate/escape.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/auto-link": [
+    {
+      "id": 343,
+      "name": "./node_modules/remark-parse/lib/tokenize/auto-link.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/url": [
+    {
+      "id": 344,
+      "name": "./node_modules/remark-parse/lib/tokenize/url.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/url": [
+    {
+      "id": 345,
+      "name": "./node_modules/remark-parse/lib/locate/url.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/html-inline": [
+    {
+      "id": 346,
+      "name": "./node_modules/remark-parse/lib/tokenize/html-inline.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/link": [
+    {
+      "id": 347,
+      "name": "./node_modules/remark-parse/lib/tokenize/link.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/reference": [
+    {
+      "id": 348,
+      "name": "./node_modules/remark-parse/lib/tokenize/reference.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/strong": [
+    {
+      "id": 349,
+      "name": "./node_modules/remark-parse/lib/tokenize/strong.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/strong": [
+    {
+      "id": 350,
+      "name": "./node_modules/remark-parse/lib/locate/strong.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/emphasis": [
+    {
+      "id": 351,
+      "name": "./node_modules/remark-parse/lib/tokenize/emphasis.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "is-word-character": [
+    {
+      "id": 352,
+      "name": "./node_modules/is-word-character/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/emphasis": [
+    {
+      "id": 353,
+      "name": "./node_modules/remark-parse/lib/locate/emphasis.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/delete": [
+    {
+      "id": 354,
+      "name": "./node_modules/remark-parse/lib/tokenize/delete.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/delete": [
+    {
+      "id": 355,
+      "name": "./node_modules/remark-parse/lib/locate/delete.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/code-inline": [
+    {
+      "id": 356,
+      "name": "./node_modules/remark-parse/lib/tokenize/code-inline.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/code-inline": [
+    {
+      "id": 357,
+      "name": "./node_modules/remark-parse/lib/locate/code-inline.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/break": [
+    {
+      "id": 358,
+      "name": "./node_modules/remark-parse/lib/tokenize/break.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../locate/break": [
+    {
+      "id": 359,
+      "name": "./node_modules/remark-parse/lib/locate/break.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./tokenize/text": [
+    {
+      "id": 360,
+      "name": "./node_modules/remark-parse/lib/tokenize/text.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "mdast-add-list-metadata": [
+    {
+      "id": 361,
+      "name": "./node_modules/mdast-add-list-metadata/index.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./plugins/naive-html": [
+    {
+      "id": 363,
+      "name": "./node_modules/react-markdown/lib/plugins/naive-html.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./plugins/disallow-node": [
+    {
+      "id": 364,
+      "name": "./node_modules/react-markdown/lib/plugins/disallow-node.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./ast-to-react": [
+    {
+      "id": 365,
+      "name": "./node_modules/react-markdown/lib/ast-to-react.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./wrap-table-rows": [
+    {
+      "id": 366,
+      "name": "./node_modules/react-markdown/lib/wrap-table-rows.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./get-definitions": [
+    {
+      "id": 367,
+      "name": "./node_modules/react-markdown/lib/get-definitions.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./uriTransformer": [
+    {
+      "id": 368,
+      "name": "./node_modules/react-markdown/lib/uriTransformer.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "./renderers": [
+    {
+      "id": 369,
+      "name": "./node_modules/react-markdown/lib/renderers.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "react-markdown": [
+    {
+      "id": 370,
+      "name": "./node_modules/react-markdown/lib/react-markdown.js",
+      "file": "static/chunks/11.7a232aeb103ef6f4d6d4.js",
+      "publicPath": "static/chunks/11.7a232aeb103ef6f4d6d4.js"
+    }
+  ],
+  "../styles/style.sass": [
+    {
+      "id": 233,
+      "name": "./styles/style.sass",
+      "file": "static/chunks/styles.0a3c172918137cfae229.js",
+      "publicPath": "static/chunks/styles.0a3c172918137cfae229.js"
+    }
+  ],
+  "undefined": [
+    {
+      "id": 236,
+      "name": null,
+      "file": "static/chunks/styles.0a3c172918137cfae229.js",
+      "publicPath": "static/chunks/styles.0a3c172918137cfae229.js"
+    }
+  ]
+}

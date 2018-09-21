@@ -40,11 +40,10 @@ class Index extends Component {
   static getDerivedStateFromProps(nextProps, prevState) {
     let { docs, total, page, $search } = nextProps
     if (
-      docs.length !== prevState.docs.length ||
-      page !== prevState.page ||
-      $search !== prevState.$search
+      !prevState.didInit &&
+      (page !== prevState.page || $search !== prevState.$search)
     ) {
-      return { total, docs, page, $search, pending: false }
+      return { total, docs, page, $search, pending: false, didInit: true }
     }
     return null
   }
@@ -89,6 +88,10 @@ class Index extends Component {
     if (page > 1) query.page = page
     if ($search) query.search = $search
     this.pushQuery(query)
+    this.updDocs(1)
+  }
+
+  componentDidMount() {
     this.updDocs(1)
   }
 
@@ -152,7 +155,9 @@ class Index extends Component {
                   </tr>
                 </thead>
                 <tbody>
-                  {docs.map(doc => <DocItem {...doc} key={doc.id} />)}
+                  {docs.map(doc => (
+                    <DocItem {...doc} key={doc.id} />
+                  ))}
                 </tbody>
               </table>
               {pages < 2 ? null : (

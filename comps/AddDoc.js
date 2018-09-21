@@ -27,20 +27,34 @@ export default ComposedComponent => {
       id: null,
       doc: {},
     }
+
     static async getInitialProps({ query, req }) {
       return await getDoc(query.id, req)
     }
-    static getDerivedStateFromProps(nextProps, state) {
+
+    static getDerivedStateFromProps(nextProps, prevState) {
       const { found, id, doc } = nextProps
-      if (state.found !== found) return { found, id, doc }
+      if (prevState.found !== found && !prevState.didInit) {
+        return { found, id, doc, didInit: true }
+      }
       return null
     }
-    async componentDidUpdate(prevProps) {
+
+    updateDoc = async id => {
+      this.setState(await getDoc(id))
+    }
+
+    componentDidMount() {
+      this.updateDoc(this.props.id)
+    }
+
+    componentDidUpdate(prevProps) {
       const { user, found, id } = this.props
       if (prevProps.user.email === user.email || found) return
       if (!user.email) return
-      this.setState(await getDoc(id))
+      this.updateDoc(id)
     }
+
     render() {
       return <ComposedComponent {...this.state} />
     }

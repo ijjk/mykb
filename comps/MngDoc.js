@@ -26,10 +26,13 @@ const initState = {
   pending: false,
 }
 
-export default class MngDoc extends Component {
+class MngDoc extends Component {
   state = initState
+
   updVal = updStateFromId.bind(this)
+
   updMd = md => this.setState({ md })
+
   submit = async () => {
     let { name, md, dir, editMode } = this.state
     let data = {
@@ -95,16 +98,20 @@ export default class MngDoc extends Component {
     }
     doErr(data.message)
   }
+
   static getDerivedStateFromProps(nextProps, prevState) {
     const { doc } = nextProps
-    if (doc) {
+    if (doc && !prevState.didInit) {
       const { name, dir, md } = doc
-      return { name, md, dir, editMode: true }
-    } else if (prevState.id) {
-      return initState
+      return { name, md, dir, editMode: true, didInit: true }
+    } else if (!prevState.didInit && prevState.id) {
+      return { ...initState, didInit: true }
+    } else if (!prevState.didInit) {
+      return { didInit: true }
     }
     return null
   }
+
   render() {
     const { md, dir, name, error, pending } = this.state
     const rowStyle = { paddingTop: 10 }
@@ -168,3 +175,5 @@ export default class MngDoc extends Component {
     )
   }
 }
+
+export default MngDoc

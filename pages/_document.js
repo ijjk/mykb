@@ -14,7 +14,6 @@ export default class MyDocument extends Document {
           />
           <link rel="shortcut icon" href={favicon} type="image/x-icon" />
           <link rel="icon" href={favicon} type="image/x-icon" />
-          <link rel="stylesheet" href={getUrl('/_next/static/style.css')} />
           <title>My Knowledge Base</title>
           <script
             dangerouslySetInnerHTML={{
