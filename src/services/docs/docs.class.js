@@ -22,6 +22,8 @@ class Service {
       fs.stat(path.join(this.docsDir, '.git'), async err => {
         if (err && err.code === 'ENOENT') {
           git.init().then(() => {
+            git.addConfig('user.name', 'mykb')
+            git.addConfig('user.email', 'mykb@localhost')
             if (this.numInitDocs === 0) return
             git.add('./*').then(() => git.commit('initial commit'))
           })
