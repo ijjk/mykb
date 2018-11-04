@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import fetch from 'isomorphic-unfetch'
-import Page from '../comps/Page'
-import PaddedRow from '../comps/PaddedRow'
-import Spinner from '../comps/Spinner'
-import updStateFromId from '../util/updStateFromId'
-import mapUser from '../util/mapUser'
-import getUrl from '../util/getUrl'
-import getJwt from '../util/getJwt'
+import Page from '../src/components/Page'
+import PaddedRow from '../src/components/PaddedRow'
+import Spinner from '../src/components/Spinner'
+import updStateFromId from '../src/util/updStateFromId'
+import mapUser from '../src/util/mapUser'
+import getUrl from '../src/util/getUrl'
+import getJwt from '../src/util/getJwt'
 
 class Settings extends Component {
   state = {

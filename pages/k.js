@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import Link from 'next/link'
 import Router from 'next/router'
 import fetch from 'isomorphic-unfetch'
-import Page from '../comps/Page'
-import Markdown from '../comps/Markdown'
-import AddDoc from '../comps/AddDoc'
-import getUrl from '../util/getUrl'
-import getJwt from '../util/getJwt'
+import Page from '../src/components/Page'
+import Markdown from '../src/components/Markdown'
+import AddDoc from '../src/components/AddDoc'
+import getUrl from '../src/util/getUrl'
+import getJwt from '../src/util/getJwt'
 
 class k extends Component {
   delete = async () => {

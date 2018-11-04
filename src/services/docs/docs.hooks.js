@@ -1,7 +1,7 @@
 const { authenticate } = require('@feathersjs/authentication').hooks
-const { checkDir, checkName } = require('../../../util/checkDirParts')
+const { checkDir, checkName } = require('../../util/checkDirParts')
 const { disable, invalid, adminOnly } = require('../hooksUtil')
-const getUrl = require('../../../util/getUrl')
+const getUrl = require('../../util/getUrl')
 const nameIsValid = name => {
   name = checkName(name)
   if (!name) return invalid('name')

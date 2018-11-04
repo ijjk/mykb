@@ -1,7 +1,7 @@
 // Initializes the `docs` service on path `/docs`
 const createService = require('./docs.class.js')
 const hooks = require('./docs.hooks')
-const getUrl = require('../../../util/getUrl')
+const getUrl = require('../../util/getUrl')
 
 module.exports = function(app) {
   const paginate = app.get('paginate')

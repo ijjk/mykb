@@ -2,7 +2,7 @@
 const createService = require('feathers-nedb')
 const createModel = require('../../models/users.model')
 const hooks = require('./users.hooks')
-const getUrl = require('../../../util/getUrl')
+const getUrl = require('../../util/getUrl')
 
 module.exports = function(app) {
   const Model = createModel(app)

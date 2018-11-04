@@ -1,11 +1,10 @@
-import App, { Container } from 'next/app'
-import store from '../redux/store'
+import Head from 'next/head'
+import '../src/styles/global'
+import store from '../src/redux/store'
 import { Provider } from 'react-redux'
-import { setUser, doLogin } from '../redux/actions/userAct'
-// Don't load sass during ssr
-if (!global.kbConf) {
-  require('../styles/style.sass')
-}
+import App, { Container } from 'next/app'
+import { setUser, doLogin } from '../src/redux/actions/userAct'
+
 const ssr = typeof window === 'undefined'
 
 export default class MyApp extends App {
@@ -36,9 +35,15 @@ export default class MyApp extends App {
     let { Component, pageProps } = this.props
     return (
       <Provider store={store}>
-        <Container>
-          <Component {...pageProps} />
-        </Container>
+        <>
+          <Head>
+            <title>My Knowledge Base</title>
+          </Head>
+
+          <Container>
+            <Component {...pageProps} />
+          </Container>
+        </>
       </Provider>
     )
   }

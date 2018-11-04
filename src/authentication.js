@@ -1,7 +1,7 @@
 const authentication = require('@feathersjs/authentication')
 const jwt = require('@feathersjs/authentication-jwt')
 const local = require('@feathersjs/authentication-local')
-const getUrl = require('../util/getUrl')
+const getUrl = require('./util/getUrl')
 
 module.exports = function(app) {
   const config = app.get('authentication')

@@ -1,4 +1,3 @@
-const favicon = require('serve-favicon')
 const fs = require('fs')
 const path = require('path')
 const compress = require('compression')
@@ -21,24 +20,24 @@ const channels = require('./channels')
 const authentication = require('./authentication')
 
 const dev = process.env.NODE_ENV !== 'production'
-const pathPrefix = require('../util/pathPrefix')
-const stripBase = require('../util/stripPrefix')
-const getUrl = require('../util/getUrl')
+const pathPrefix = require('./util/pathPrefix')
+const stripBase = require('./util/stripPrefix')
+const getUrl = require('./util/getUrl')
 const { parse } = require('url')
-const nxt = require('next')({ dev, quiet: true })
-const nxtHandler = nxt.getRequestHandler()
+const Next = require('next')({ dev, quiet: true })
+const nextHandler = Next.getRequestHandler()
 
 const app = express(feathers())
 global.app = app
 
 app.run = async port => {
   const server = app.listen(port)
-  await nxt.prepare()
+  await Next.prepare()
 
   if (dev) {
     server.on('upgrade', (req, socket) => {
       req.url = stripBase(req.url)
-      nxtHandler(req, socket, parse(req.url, true))
+      nextHandler(req, socket, parse(req.url, true))
     })
   }
   return server
@@ -82,17 +81,18 @@ app.use(
   })
 )
 
+app.use(getUrl('/'), express.static(path.join(__dirname, '../public')))
+
 if (!dev) app.use(compress())
 app.use(express.json()) // use { limit } option to increase max post size
 app.use(express.urlencoded({ extended: true }))
-app.use(getUrl('/'), favicon('favicon.ico'))
 app.configure(express.rest()) // Set up Plugins and providers
 app.configure(middleware) // middleware/index.js
 app.configure(authentication) // Set up authentication
 app.configure(services) // Set up our services (see `services/index.js`)
 app.configure(channels) // Set up event channels (see channels.js)
 
-nxt.setAssetPrefix(pathPrefix)
+Next.setAssetPrefix(pathPrefix)
 
 const checkJWT = async (req, res, next) => {
   const result = await req.app.authenticate('jwt', {})(req)
@@ -106,12 +106,12 @@ const checkJWT = async (req, res, next) => {
 ;['/', '/logout', '/new', '/settings'].forEach(route => {
   app.get(getUrl(route), cookieParser, checkJWT, (req, res) => {
     const { query } = parse(req.url, true)
-    nxt.render(req, res, route, query)
+    Next.render(req, res, route, query)
   })
 })
 ;['/k', '/edit'].forEach(route => {
   app.get(getUrl(route + '/:id'), cookieParser, checkJWT, (req, res) => {
-    nxt.render(req, res, route, { id: req.params.id })
+    Next.render(req, res, route, { id: req.params.id })
   })
 })
 
@@ -121,10 +121,10 @@ app.use((req, res, next) => {
   if (accept && accept.toLowerCase() === 'application/json')
     return notFound(req, res, next)
   if (req.url.substr(0, pathPrefix.length) !== pathPrefix)
-    return nxt.render404(req, res)
+    return Next.render404(req, res)
 
   req.url = stripBase(req.url)
-  nxtHandler(req, res, parse(req.url, true))
+  nextHandler(req, res, parse(req.url, true))
 })
 
 app.use(express.errorHandler({ logger }))

@@ -1,2 +1,2 @@
-import MngDoc from '../comps/MngDoc'
+import MngDoc from '../src/components/MngDoc'
 export default MngDoc
