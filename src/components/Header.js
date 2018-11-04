@@ -9,92 +9,92 @@ import getUrl from '../util/getUrl'
 import mapUser from '../util/mapUser'
 
 const style = {
-  background: theme.primaryAlt, 
-  display: 'flex', 
-  flexDirection: 'row', 
-  alignItems: 'center', 
-  height: 55, 
-  
+  background: theme.primaryAlt,
+  display: 'flex',
+  flexDirection: 'row',
+  alignItems: 'center',
+  height: 55,
+
   '& .navbar-brand': {
-    marginLeft: '0.75em', 
+    marginLeft: '0.75em',
     marginRight: 'auto',
-    
+
     '& h3': {
-      marginBottom: 0, 
+      marginBottom: 0,
     },
   },
 
   '& .navbar-burger': {
     width: 32,
-    display: 'none', 
-    marginRight: 10,  
+    display: 'none',
+    marginRight: 10,
 
     '&.active div': {
       '&:nth-child(1)': {
-        transformOrigin: 'center', 
+        transformOrigin: 'center',
         transform: 'translateY(8px) rotate(45deg)',
       },
       '&:nth-child(2)': {
-        opacity: 0, 
+        opacity: 0,
       },
       '&:nth-child(3)': {
-        transformOrigin: 'left -6px', 
+        transformOrigin: 'left -6px',
         transform: 'translateY(8px) rotate(-45deg)',
       },
     },
     '& div': {
       transition: 'all ease-in-out 150ms',
       width: '100%',
-      height: 2, 
-      margin: '5px 0', 
-      borderRadius: 1, 
-      background: theme.text, 
+      height: 2,
+      margin: '5px 0',
+      borderRadius: 1,
+      background: theme.text,
     },
   },
 
   '& .navbar-items': {
-    display: 'inline-flex', 
-    flexDirection: 'row', 
-    
+    display: 'inline-flex',
+    flexDirection: 'row',
+
     '& .active .item, .item:hover': {
-      background: theme.primary, 
+      background: theme.primary,
     },
     '& .item': {
-      margin: 0, 
-      cursor: 'pointer', 
+      margin: 0,
+      cursor: 'pointer',
       padding: '15px 20px',
-    }
+    },
   },
 
   '@media screen and (max-width: 840px)': {
     '& .navbar-burger': {
       display: 'inline-block',
-    }, 
+    },
 
     '& .navbar-items': {
-      display: 'block', 
+      display: 'block',
       overflow: 'hidden',
-      position: 'fixed', 
-      top: 55, 
-      left: 0, 
-      zIndex: 5, 
-      background: theme.primaryAlt, 
-      width: '100%', 
-      transform: 'scaleY(0)', 
-      transformOrigin: 'top', 
-      transition: 'all ease-in-out 125ms', 
+      position: 'fixed',
+      top: 55,
+      left: 0,
+      zIndex: 5,
+      background: theme.primaryAlt,
+      width: '100%',
+      transform: 'scaleY(0)',
+      transformOrigin: 'top',
+      transition: 'all ease-in-out 125ms',
 
       '&.active': {
-        transform: 'scaleY(1)', 
-        overflow: 'auto', 
+        transform: 'scaleY(1)',
+        overflow: 'auto',
       },
       '& .item': {
-        width: '100%', 
-        padding: '5px 0', 
+        width: '100%',
+        padding: '5px 0',
         textAlign: 'center',
-      }
-    }
-  }
+      },
+    },
+  },
 }
 
 const NavLink = ({ children, href, active }) => {
@@ -127,7 +127,11 @@ class Header extends Component {
     const expandClass = this.state.open ? ' active' : ''
     const { user } = this.props
     return (
-      <nav className={ "navbar " + css(style) } role="navigation" aria-label="main navigation">
+      <nav
+        className={'navbar ' + css(style)}
+        role="navigation"
+        aria-label="main navigation"
+      >
         <div className="navbar-brand">
           <NavLink href="/">
             <h3 onClick={this.hideNav}>MYKB</h3>

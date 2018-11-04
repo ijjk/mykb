@@ -15,10 +15,13 @@ const CodeMirrorSkel = () => (
     <textarea style={{ height: 'calc(300px - 1.2rem)', margin: 0 }} />
   </div>
 )
-const CodeMirror = dynamic(typeof window !== 'undefined' && import('../components/CodeMirror'), {
-  loading: CodeMirrorSkel,
-  ssr: false,
-})
+const CodeMirror = dynamic(
+  typeof window !== 'undefined' && import('../components/CodeMirror'),
+  {
+    loading: CodeMirrorSkel,
+    ssr: false,
+  }
+)
 const initState = {
   name: '',
   dir: '',
