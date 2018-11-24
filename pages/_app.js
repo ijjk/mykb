@@ -1,50 +1,52 @@
-import Head from 'next/head'
-import '../src/styles/global'
-import store from '../src/redux/store'
-import { Provider } from 'react-redux'
 import App, { Container } from 'next/app'
-import { setUser, doLogin } from '../src/redux/actions/userAct'
+import Head from 'next/head'
+import { Provider } from 'react-redux'
+import withRedux from '../src/client/hocs/withRedux'
+import Header from '../src/client/layout/header'
+import Footer from '../src/client/layout/footer'
+import Shortcuts from '../src/client/comps/shortcuts'
+import Milligram from '../src/client/styles/milligram'
+import Roboto from '../src/client/styles/roboto'
+import Global from '../src/client/styles/global'
+import '../src/client/util/registerServiceWorker'
 
-const ssr = typeof window === 'undefined'
-
-export default class MyApp extends App {
+class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {
-    let user = {}
-    let setup = false
-    if (ssr) {
-      user = ctx.req.user || {}
-      setup = ctx.req.doSetup || false
-    }
     let pageProps = {}
     if (Component.getInitialProps) {
       pageProps = await Component.getInitialProps(ctx)
     }
-    return { Component, pageProps, user, setup }
-  }
-
-  componentWillMount() {
-    const { user, setup } = this.props
-    setUser({ ...user, setup })
-    if (!ssr && !user.email) {
-      const { jwt } = window.localStorage
-      if (jwt) doLogin(null, jwt, true)
-    }
+    return { Component, pageProps }
   }
 
   render() {
-    let { Component, pageProps } = this.props
+    const { Component, pageProps, reduxStore } = this.props
     return (
-      <Provider store={store}>
+      <Provider store={reduxStore}>
         <>
           <Head>
             <title>My Knowledge Base</title>
           </Head>
 
-          <Container>
-            <Component {...pageProps} />
-          </Container>
+          <Header />
+
+          <div className="fill main">
+            <Container>
+              <Component {...pageProps} />
+            </Container>
+          </div>
+
+          <Footer />
+          <Shortcuts />
+
+          {/* style components */}
+          <Roboto />
+          <Milligram />
+          <Global />
         </>
       </Provider>
     )
   }
 }
+
+export default withRedux(MyApp)

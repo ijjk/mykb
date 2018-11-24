@@ -1,14 +1,12 @@
 #!/bin/bash
 
 PKGDIR="/opt/mykb"
-DBDIR="$PKGDIR/db"
 KBDIR="$PKGDIR/kb"
 CONFDIR="$PKGDIR/config"
 
-if [ -d "/db" ];then
-  rm -rf $DBDIR
-  ln -s /db $DBDIR
-  DBDIR="/db"
+# check if kb volume exists and is empty and copy starter doc if it is
+if [ -d "/kb" ] && [ -z "$(ls -A /kb)" ] && [ -f "/opt/mykb/kb/hello world.md" ];then
+  cp "/opt/mykb/kb/hello world.md" /kb/
 fi
 
 if [ -d "/kb" ];then
@@ -29,12 +27,12 @@ export NODE_ENV=production
 
 if [ -z "$PUID" ];then
   echo 'no PUID set running as default user'
-  node ./genSecret.js && node ./src
+  node ./bin/genSecret.js && node ./src
 else
   echo 'chowning files'
-  DIRS=($KBDIR $DBDIR $CONFDIR)
+  DIRS=($KBDIR $CONFDIR)
   for dir in ${DIRS[@]};do chown "$PUID:$PGID" $dir;done
   chown "$PUID:$PGID" -R $CONFDIR
-  s6-setuidgid "$PUID:$PGID" node ./genSecret.js 
+  s6-setuidgid "$PUID:$PGID" node ./bin/genSecret.js 
   s6-setuidgid "$PUID:$PGID" node ./src
 fi

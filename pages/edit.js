@@ -1,18 +1,19 @@
-import React, { Component } from 'react'
-import Page from '../src/components/Page'
-import MngDoc from '../src/components/MngDoc'
-import AddDoc from '../src/components/AddDoc'
+import React from 'react'
+import EditDoc from '../src/client/comps/editDoc'
+import loadDocs from '../src/client/util/loadDocs'
+import RequireUser from '../src/client/comps/requireUser'
 
-class Edit extends Component {
-  render() {
-    const { found, doc } = this.props
-    if (!found)
-      return (
-        <Page>
-          <h3>Doc not found...</h3>
-        </Page>
-      )
-    return <MngDoc {...{ doc }} />
-  }
+function Edit({ query }) {
+  return (
+    <RequireUser>
+      <EditDoc {...{ query }} />
+    </RequireUser>
+  )
 }
-export default AddDoc(Edit)
+
+Edit.getInitialProps = async ({ query }) => {
+  await loadDocs(query, true)
+  return { query }
+}
+
+export default Edit

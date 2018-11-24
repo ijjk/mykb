@@ -7,49 +7,51 @@
 You can try the demo at: https://mykb.jjsweb.site
 
 \- Login  
-email: notadmin  
+email: admin  
 password: secretpass
 
 P.S. the demo is reset every 10 minutes
 
 ## About
 
-MYKB is a simple file system/markdown based knowledge base editor/viewer built with [Feathers](http://feathersjs.com) and [Next.js](https://github.com/zeit/next.js)
+MYKB is a file system/markdown based knowledge base editor/viewer built with [Next.js](https://github.com/zeit/next.js)
 
 Current features:
 
 - live preview when editing a doc
 - live file system watching
 - caching of docs to speed up searching/viewing of docs
+- offline viewing of cached docs (requires browser that supports service workers)
 - automatic git versioning
-- automatic trusting of cloudflare reverse proxies
+- automatic trusting of Cloudflare reverse proxies
 
 ## Installing 
 
-Getting up and running is as easy as 1, 2, 3
+- With Docker
+    ```
+    docker run --name mykb -v /path/to/docs:/kb -v /path/to/config:/config --env "PUID=USER_ID" --env "PGID=GROUP_ID" -p 3000:3000 ijjk/mykb:latest
+    ```
 
-1. Clone repo
-    ```
-    git clone https://github.com/ijjk/mykb
-    ```
-2. Install dependencies (omit `--prod` if developing)
-    ```
-    cd path/to/mykb; npm i --prod
-    ```
-3. Start it
-    ```
-    npm start
-    ```
+- With yarn (or npm)
+
+    1. Clone repo
+        ```
+        git clone https://github.com/ijjk/mykb
+        ```
+    2. Install dependencies
+        ```
+        cd path/to/mykb; yarn
+        ```
+    3. Build it
+        ```
+        yarn build && NODE_ENV=production node ./bin/genSecret.js
+        ```
+    4. Start it
+        ```
+        yarn start
+        ```
 
 ## Options
-
-host.json
-
-| Name | Description |
-| ---- | ----------- |
-| host | The host to listen on |
-| port | The port to listen on |
-| pathPrefix | Used to prefix all urls for reverse proxies | 
 
 production.json (overrides default.json with production NODE_ENV var) 
 
@@ -57,16 +59,10 @@ production.json (overrides default.json with production NODE_ENV var)
 | ---- | ----------- |
 | useGit | Whether or not to use a git repo to automatically version changes to docs (requires git to be installed) |
 | docsDir | The directory where the markdown docs are located |
-| cacheSize | Max size of docs to store in memory for faster searching (default 7.5MB) |
-| trustCloudflare | Whether to trust X-Forwarded-For header from cloudflare IPs (used for rate limiting) |
-
-If using git the `user.email` and `user.name` configs need to be set either globally or on the docs repo
+| cacheSize | Max size of docs to store in memory for faster searching (default 10MB) |
+| trustCloudflare | Whether to trust X-Forwarded-For header from Cloudflare IPs (used for rate limiting) |
 
 trustIPs.json - An array of [proxy-addr](https://www.npmjs.com/package/proxy-addr) compatible addresses to trust the X-Forwarded-For header from (Only needed if behind reverse proxy)
-
-## Testing
-
-Simply run `npm test` and all your tests in the `test/` directory will be run
 
 ## License
 

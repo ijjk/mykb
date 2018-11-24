@@ -1,114 +1,128 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { connect } from 'react-redux'
-import fetch from 'isomorphic-unfetch'
-import Page from '../src/components/Page'
-import PaddedRow from '../src/components/PaddedRow'
-import Spinner from '../src/components/Spinner'
-import updStateFromId from '../src/util/updStateFromId'
-import mapUser from '../src/util/mapUser'
-import getUrl from '../src/util/getUrl'
-import getJwt from '../src/util/getJwt'
+import addBase from '../src/util/addBase'
+import getHeaders from '../src/client/util/getHeaders'
+import RequireUser from '../src/client/comps/requireUser'
 
-class Settings extends Component {
-  state = {
-    pending: false,
-    passErr: null,
-    curPass: '',
-    newPass: '',
-    confPass: '',
-  }
-  updVal = updStateFromId.bind(this)
-  submit = async e => {
-    e.preventDefault()
-    const { pending, curPass, newPass, confPass } = this.state
-    const { email, _id } = this.props.user
+function Settings({ user }) {
+  const [data, setData] = useState({
+    current: '',
+    confirm: '',
+    new: '',
+  })
+  const [pending, setPending] = useState(false)
+  const [error, setError] = useState(null)
+
+  const handleSubmit = () => {
     if (pending) return
-    const doErr = passErr => this.setState({ pending: false, passErr })
-    const vals = {
-      'Current password': curPass,
-      'New password': newPass,
-      'Confirm new password': confPass,
-    }
-    const keys = Object.keys(vals)
-    for (let i = 0; i < keys.length; i++) {
-      let key = keys[i],
-        val = vals[key]
-      if (val.length === 0) return doErr(`${key} is required`)
-    }
-    if (newPass !== confPass) return doErr("New passwords don't match")
+    let err
+    Object.keys(data).forEach(k => (data[k] = data[k].trim()))
+    if (!data.current) err = 'current pass is required'
+    else if (!data.new) err = 'new pass is required'
+    else if (!data.confirm) err = 'confirm pass is required'
+    else if (data.new !== data.confirm) err = 'new password must match confirm'
 
-    this.setState({ passErr: null, pending: true })
-    const updRes = await fetch(getUrl('users/' + _id), {
+    if (err) return setError(err)
+    setError(null)
+    setPending(true)
+
+    fetch(addBase('/user'), {
       method: 'PATCH',
-      headers: { 'Content-Type': 'application/json', Authorization: getJwt() },
-      body: JSON.stringify({ email, password: curPass, newPassword: newPass }),
-    }).catch(doErr)
-    if (updRes.ok) {
-      this.setState({
-        curPass: '',
-        newPass: '',
-        confPass: '',
-        passErr: 'Password updated successfully',
-        pending: false,
+      headers: {
+        ...getHeaders(),
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        username: user.username,
+        password: data.current,
+        newPassword: data.new,
+      }),
+    })
+      .then(async res => {
+        const { status, ...data } = await res.json()
+        if (status === 'ok') {
+          setPending(false)
+          setError('Password updated')
+          return setData({
+            current: '',
+            confirm: '',
+            new: '',
+          })
+        }
+        throw new Error(data.message)
       })
-    } else {
-      let message = 'failed to update password'
-      try {
-        const data = await updRes.json()
-        message = data.message || message
-      } catch (err) {
-        doErr(err.message)
-      }
-      doErr(message)
-    }
+      .catch(err => {
+        setPending(false)
+        setError(err.message || 'An error occurred updating password')
+      })
   }
-  render() {
-    const { pending, passErr, curPass, newPass, confPass } = this.state
+  const handleChange = e => {
+    data[e.target.id] = e.target.value
+    setData(data)
+  }
 
-    return (
-      <Page>
-        <PaddedRow amount={25}>
-          <h3>Account settings</h3>
-          <hr />
-          <form noValidate style={{ padding: '0 0 45px' }}>
-            <h4>Change password</h4>
-            <fieldset>
-              <label htmlFor="curPass">Current Password</label>
-              <input
-                type="password"
-                id="curPass"
-                onChange={this.updVal}
-                placeholder="Current super secret password..."
-                value={curPass}
-              />
-              <label htmlFor="newPass">New Password</label>
-              <input
-                type="password"
-                id="newPass"
-                onChange={this.updVal}
-                placeholder="New super secret password..."
-                value={newPass}
-              />
-              <label htmlFor="confPass">Confirm New Password</label>
-              <input
-                type="password"
-                id="confPass"
-                onChange={this.updVal}
-                placeholder="Confirm new super secret password..."
-                value={confPass}
-              />
-            </fieldset>
-            <button
-              onClick={this.submit}
-              className={'float-right' + (pending ? ' disabled' : '')}
-            >
-              {pending ? <Spinner /> : 'Submit'}
-            </button>
-            {!passErr ? null : <p>{passErr}</p>}
-          </form>
-        </PaddedRow>
-      </Page>
-    )
-  }
+  return (
+    <RequireUser>
+      <div className="container padded fill">
+        <h3>Account settings</h3>
+        <hr />
+
+        <h4>Change password</h4>
+
+        <label htmlFor="current">Current Password</label>
+        <input
+          id="current"
+          type="password"
+          placeholder="Current super secret password"
+          value={data.current}
+          onChange={handleChange}
+        />
+
+        <label htmlFor="new">New Password</label>
+        <input
+          id="new"
+          type="password"
+          placeholder="New super secret password"
+          value={data.new}
+          onChange={handleChange}
+        />
+
+        <label htmlFor="confirm">Confirm New Password</label>
+        <input
+          id="confirm"
+          type="password"
+          value={data.confirm}
+          onChange={handleChange}
+          placeholder="Confirm its not too secret you forgot"
+        />
+
+        <div>
+          {error && <p className="float-left">{error}</p>}
+          <button className="float-right" onClick={handleSubmit}>
+            Submit
+          </button>
+        </div>
+
+        <style jsx>{`
+          .container {
+            width: 100%;
+            margin: auto;
+            padding: 10px;
+            max-width: 550px;
+          }
+
+          h3 {
+            margin-top: 15px;
+            margin-bottom: 0 !important;
+          }
+
+          button {
+            margin-top: 5px;
+          }
+        `}</style>
+      </div>
+    </RequireUser>
+  )
 }
-export default connect(mapUser)(Settings)
+
+export default connect(({ user }) => ({ user }))(Settings)
