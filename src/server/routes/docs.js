@@ -106,8 +106,7 @@ module.exports = function docs(app) {
     if (!doc) return notFound(res)
     if (!isOkDoc({ name: name || doc.name, dir, md }, kb, res)) return
     let newDir = typeof dir === 'string' ? dir : doc.dir
-    const oldDir = path.join(docsDir, doc.dir)
-    const oldPath = path.join(oldDir, doc.name)
+    const oldPath = path.join(docsDir, doc.dir, doc.name)
     const docPath = path.join(docsDir, newDir, name || doc.name)
     const oldRelPath = oldPath.split(docsDir + '/')[1]
     const curRelPath = docPath.split(docsDir + '/')[1]
@@ -125,13 +124,14 @@ module.exports = function docs(app) {
       }
       await tryRmdir(docsDir, oldRelPath)
 
-      if (useGit && isNewPath) {
-        await git.rm(oldPath)
+      if (useGit) {
+        let commitMsg = `updated doc ${curRelPath}`
+        if (isNewPath) {
+          git.rm(oldPath)
+          commitMsg = `renamed doc ${oldRelPath} to ${curRelPath}`
+        }
         await git.add(docPath)
-        await git.commit(`renamed doc ${oldRelPath} to ${curRelPath}`)
-      } else if (useGit) {
-        await git.add(docPath)
-        await git.commit(`updated doc ${curRelPath}`)
+        await git.commit(commitMsg)
       }
     } catch (err) {
       return serverError(res, err)
