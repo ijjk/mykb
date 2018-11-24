@@ -22,8 +22,14 @@ if [ -d "/config" ];then
   CONFDIR="/config"
 fi
 
+# create home directory with full access that git can access
+mkdir -p /home/mykb
+chmod 0777 -R /home/mykb
+
 cd /opt/mykb 
+
 export NODE_ENV=production
+export HOME=/home/mykb
 
 if [ -z "$PUID" ];then
   echo 'no PUID set running as default user'

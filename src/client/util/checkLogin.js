@@ -32,6 +32,9 @@ export default async function checkLogin(req) {
               verified: true,
               jwt,
             }
+          } else if (res.status === 400) {
+            user = {}
+            delete localStorage.jwt
           }
         })
         .catch(() => {})
