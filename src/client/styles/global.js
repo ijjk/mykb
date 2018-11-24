@@ -98,7 +98,7 @@ export default function global(props) {
         list-style: none;
         text-align: center;
         user-select: none;
-        margin: 0;
+        margin: 0 -2rem;
       }
 
       .paginate li {

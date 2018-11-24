@@ -160,6 +160,10 @@ function ListDocs({ docs, query }) {
           display: block;
         }
 
+        td:nth-child(1) {
+          word-break: break-word;
+        }
+
         th:nth-of-type(2n),
         td:nth-of-type(2n) {
           text-align: right;
