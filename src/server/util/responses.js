@@ -14,7 +14,7 @@ module.exports = {
   },
 
   serverError: (res, err) => {
-    isDev && console.log(new Error(err).stack)
+    console.log(new Error(err).stack)
     res.status(500).json({
       status: 'error',
       message: (isDev && err && err.message) || 'server encountered error',
