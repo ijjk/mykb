@@ -44,7 +44,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "bcrypt": "^3.0.2",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "chokidar": "^2.0.4",
     "codemirror": "^5.41.0",
