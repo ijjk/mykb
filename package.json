@@ -47,7 +47,7 @@
     "bcrypt": "^3.0.2",
     "body-parser": "^1.18.3",
     "chokidar": "^2.0.4",
-    "codemirror": "^5.41.0",
+    "codemirror": "^5.58.2",
     "compression": "^1.7.3",
     "cookie-parser": "^1.4.3",
     "cross-env": "^5.2.0",
