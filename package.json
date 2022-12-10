@@ -51,7 +51,7 @@
     "compression": "^1.7.3",
     "cookie-parser": "^1.4.3",
     "cross-env": "^5.2.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-rate-limit": "^3.3.2",
     "fs-extra": "^7.0.1",
     "helmet": "^3.15.0",
